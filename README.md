@@ -13,7 +13,7 @@ create by Deraczi#0001
 
 [EN]
 
-- = - = - = - = - City cime script - = - = - = - = -
+- = - = - = - = - City Blackout script - = - = - = - = -
 
 - = - = - = - = - Video - = - = - = - = -
 
