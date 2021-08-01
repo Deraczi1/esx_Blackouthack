@@ -40,6 +40,26 @@ end, function(source, args, user)
 	TriggerClientEvent('chatMessage', source, "Miasto", {255, 0, 0}, "Brak Permisji.")
 end, {help = ""})
 
+TriggerEvent('es:addGroupCommand', 'wylaczprad', 'admin', function(source, args, user)
+	-- heal another player - don't heal source
+	if args[1] then
+		local target = tonumber(args[1])
+		
+		-- is the argument a number?
+		if target ~= nil then
+			
+			-- is the number a valid player?
+			if GetPlayerName(target) then
+			else
+			end
+		else
+		end
+	else
+		TriggerClientEvent('esx_Blackouthack:wylaczpradadmin', source)
+	end
+end, function(source, args, user)
+	TriggerClientEvent('chatMessage', source, "Miasto", {255, 0, 0}, "Brak Permisji.")
+end, {help = ""})
 
 
 Citizen.CreateThread(function()
