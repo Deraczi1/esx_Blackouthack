@@ -9,11 +9,6 @@
 - = - = - = - = - https://youtu.be/QgXhp_Fl19Q - = - = - = - = -
 
 
-# UPDATE 
-
-0.1
-
-dodano komede dla administracji /wylaczprad 
 
 
 
@@ -28,3 +23,11 @@ dodano komede dla administracji /wylaczprad
 
 
 create by Deraczi#0001
+
+
+
+# UPDATE 
+
+0.1
+
+dodano komede dla administracji /wylaczprad 
