@@ -102,6 +102,39 @@ AddEventHandler('esx_Blackouthack:wlaczprad', function(prop_name)
 	end
 end) 
 
+RegisterNetEvent('esx_Blackouthack:wylaczpradadmin')
+AddEventHandler('esx_Blackouthack:wylaczpradadmin', function(prop_name)
+	if not IsAnimated then
+		prop_name = prop_name or ''
+		IsAnimated = true
+
+		Citizen.CreateThread(function()
+			local playerPed = PlayerPedId()
+			local x,y,z = table.unpack(GetEntityCoords(playerPed))
+			local prop = CreateObject(GetHashKey(prop_name), x, y, z + 0.2, true, true, true)
+			local boneIndex = GetPedBoneIndex(playerPed, 28422)
+			AttachEntityToEntity(prop, playerPed, boneIndex, 0.008, -0.02, -0.3, 90.0, 270.0, 90.0, true, true, false, true, 1, true)
+
+			ESX.Streaming.RequestAnimDict('amb@world_human_stand_mobile@male@text@base', function()
+				TaskPlayAnim(playerPed, 'amb@world_human_stand_mobile@male@text@base', 'base', 1.0, -1.0, 2000, 0, 1, true, true, true)
+				Citizen.Wait(1000)
+				SetArtificialLightsState(false)
+				Citizen.Wait(1000)
+				SetArtificialLightsState(true)
+				Citizen.Wait(1000)
+				SetArtificialLightsState(false)
+				Citizen.Wait(1000)
+				SetArtificialLightsState(true)
+				
+				IsAnimated = false
+				ClearPedSecondaryTask(playerPed)
+				DeleteObject(prop)
+			end)
+		end)
+
+	end
+end) 
+
 --Skrypt by Deraczi#0001
 --Skrypt by Deraczi#0001
 --Skrypt by Deraczi#0001
