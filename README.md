@@ -30,4 +30,4 @@ create by Deraczi#0001
 
 0.1
 
-dodano komede dla administracji /wylaczprad 
+dodano komede dla administracji /wylaczprad  (prad nie właczy sie po jakimś czasie musisz go właczyc /wlaczprad)
