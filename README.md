@@ -15,7 +15,7 @@
 
 dodano komede dla administracji /wylaczprad 
 
-create by Deraczi#0001
+
 
 [EN]
 
@@ -27,8 +27,4 @@ create by Deraczi#0001
 
 
 
-# UPDATE 
-
-0.1
-
-Add comedy for administration /wylaczprad 
+create by Deraczi#0001
