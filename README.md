@@ -1,8 +1,20 @@
-# esx_Blackouthack
 
 
--=-=-=-=- Skryp na cime w mieście -=-=-=-=-
+[PL]
 
--=-=-=-=-          Film          -=-=-=-=-
+- = - = - = - = - Skryp na cime w mieście - = - = - = - = -
 
--=-=-=-=- https://youtu.be/QgXhp_Fl19Q -=-=-=-=-
+- = - = - = - = -          Film          - = - = - = - = -
+
+- = - = - = - = - https://youtu.be/QgXhp_Fl19Q - = - = - = - = -
+
+
+create by Deraczi#0001
+
+[EN]
+
+- = - = - = - = - City cime script - = - = - = - = -
+
+- = - = - = - = - Video - = - = - = - = -
+
+- = - = - = - = - https://youtu.be/QgXhp_Fl19Q - = - = - = - = -
